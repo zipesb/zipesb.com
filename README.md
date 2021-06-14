@@ -1,2 +1,2 @@
 # zipesb.github.io
-personal website
+This is my first foray into any kind of web development, I have no former experience with HTML, CSS, or JS. I'm using existing CSS and js from the Minimal theme on the jekyllthemes website. I used the existing styles.css CSS sheet as a basis and modified it to reflect my personal taste. My goal was to create a public website to showcase, for anyone who was interested, any personal projects I work on.
