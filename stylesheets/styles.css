@@ -181,7 +181,7 @@
 body {
   font-family: 'IBM VGA 8x16';
   text-align: center;
-  background-image: url("/background/blank_crt_display_v3.png");
+  background-image: url("/images/blank_crt_display_v3.png");
   background-repeat: no-repeat;  
   background-position: 0% 0%;
   background-size: 100% 100%;
@@ -200,6 +200,9 @@ h1 {
 h2 {
   font-size: 32px;
 }
+h3 {
+  vertical-align: middle;
+}
 a {
   color: #FFB000;
 }
@@ -211,10 +214,6 @@ a:hover {
 }
 .testing {
   outline: 2px solid red;
-}
-.dailygrindscontainer {
-  position: absolute;
-  display:inline-block;
 }
 .terminalcontainer {
   display: inline-block;
@@ -231,23 +230,41 @@ a:hover {
   margin: auto;
   padding: 8px;
 }
-.terminalcontainer .about{
+.terminalcontainer .about {
   background-color: #785400;
   color: #FFB000;
   padding: 2%;
   margin: 5px;
   margin-top: 0%;
 }
-.terminalcontainer .terminal{
+.terminalcontainer .terminal {
   text-align:left;
   margin-top: 7%;
   color: #FFB000;
 }
-.terminalcontainer .caret{
+.terminalcontainer .caret {
   animation: blink 0.525s infinite alternate step-end;
 }
-.terminalcontainer .terminal .item:hover{
+.terminalcontainer .terminal .item:hover {
   background-color: #CE8E00;
   color: #372600;
   cursor: pointer;
+}
+.contactinfo {
+  position:absolute;
+  display:inline-block;
+  margin-top: 3%;
+  text-align:left;
+  color: #FFB000;
+}
+.logo {
+  width:2em;
+  height:2em;
+  padding-right:1em;
+  vertical-align: middle;
+  cursor:pointer;
+}
+.dailygrindscontainer {
+  position: absolute;
+  display:inline-block;
 }
