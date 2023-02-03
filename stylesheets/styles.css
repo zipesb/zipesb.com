@@ -6,6 +6,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 *:not(input) {
   cursor: default;
 }
@@ -21,11 +29,11 @@ h1 {
 h2 {
   font-size: 32px;
 }
-.testing {
-  border: 3px solid green;
-}
 .hide {
-  visibility: hidden;
+  visibility:hidden;
+}
+.testing {
+  outline: 2px solid red;
 }
 .container {
   background-image: url("/background/blank_crt_display_v3.png");
@@ -35,35 +43,40 @@ h2 {
   text-align: center;
 }
 .dailygrindscontainer {
-  display: inline-block;
+  position: absolute;
+  display:inline-block;
 }
-.directorycontainer {
+.terminalcontainer {
   display: inline-block;
   margin: auto;
-  margin-top: 0%;
+  margin-top: 3%;
   width: 75%;
   max-width: 750px;
 }
-.directorycontainer .name {
-  background-color: #CE8E00;
+.terminalcontainer .name {
+  background-color: #AB7700;
   color: #372600;
   width: 75%;
   max-width: 750px;
   margin: auto;
-  padding: 0%;
+  padding: 8px;
 }
-.directorycontainer .about{
-  background-color: #956600;
+.terminalcontainer .about{
+  background-color: #785400;
+  color: #FFB000;
   padding: 2%;
-  margin: 3%;
+  margin: 5px;
   margin-top: 0%;
 }
-.directorycontainer .directory{
+.terminalcontainer .terminal{
   text-align:left;
   margin-top: 7%;
   color: #FFB000;
 }
-.directorycontainer .directory .item:hover{
+.terminalcontainer .caret{
+  animation: blink 0.525s infinite alternate step-end;
+}
+.terminalcontainer .terminal .item:hover{
   background-color: #CE8E00;
   color: #372600;
   cursor: pointer;

@@ -1,11 +1,10 @@
 var i = 0;
-var dirCommand = document.getElementById("dirCommand");
-var speed = 50;
+var speed = 100;
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typingeffect").innerHTML += txt.charAt(i);
+function typingEffect(text, target) {
+    if (i < text.length) {
+    document.getElementById(target).innerHTML += text.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
-  }
+    setTimeout(typingEffect, speed, text, target);
+    }
 }

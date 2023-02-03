@@ -1,2 +1,13 @@
 # zipesb.github.io
-This is my first foray into any kind of web development, I have no former experience with HTML, CSS, or JS. I'm using existing CSS and js from the Minimal theme on the jekyllthemes website. I used the existing styles.css CSS sheet as a basis and modified it to reflect my personal taste. My goal was to create a public website to showcase, for anyone who was interested, any personal projects I work on.
+Quick resource list (to be refined later)
+-https://www.shutterstock.com/image-photo/vintage-crt-computer-monitor-black-260nw-1091039552.jpg
+-https://htmlcolorcodes.com/color-picker/
+-https://www.ascii-art-generator.org/
+-https://int10h.org/oldschool-pc-fonts/
+-https://www.w3schools.com/html/default.asp
+-https://www.w3schools.com/css/default.asp
+-https://www.w3schools.com/howto/howto_js_typewriter.asp
+-Nenad Vracar https://stackoverflow.com/questions/36118301/simulate-a-flashing-text-cursor-in-html
+-https://developer.mozilla.org/en-US/docs/Web/CSS/
+-nepeo https://stackoverflow.com/questions/24939347/how-can-i-add-a-time-delay-to-my-divs-so-they-appear-one-after-the-other-like-a
+-https://dev.to/ekeijl/retro-crt-terminal-screen-in-css-js-4afh

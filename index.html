@@ -1,11 +1,5 @@
 <!doctype html>
 
-<!-------------Note----------------
-I felt it appropriate to include this disclaimer for anyone who is looking this closely.
-Firstly, thank you for taking the time to look this close.
-Secondly, this being my first experience with HTML or CSS, and being a personal project, I apologize in advance for a general lack of neatness.
--->
-
 <html>
   <head>
     <meta name="google-site-verification" content="Zo9WG0xu8dOPauS7nKnTNDU96w6zv0nPUK3fMXut1F4" />
@@ -23,27 +17,35 @@ Secondly, this being my first experience with HTML or CSS, and being a personal 
   </head>
 
   <body>
-    <div class="testing container">
-      <div class="testing hide dailygrindscontainer">
-        <h2>Daily Grinds</h2>
-        insert Duolingo and Leetcode embeds here
-      </div>
-      <div class="testing directorycontainer">
-        <div class="testing name">
+    <div class="container">
+      <div class="terminalcontainer">
+        <div class=" name">
           <h1>I'm Benjamin Zipes</h1>
-          <div class="testing about">
+          <div class=" about">
             <p>I am an undergraduate studying Computer Science at the University of Florida and working on a career in cyber security, particularly interested in the areas of application security, penetration testing, incident response, or forensic analysis. Always looking for new resources to learn from especially concerning cyber security. I love to be just outside of my comfort zone and learning new things whether its a language, program, concept, or anything else.</p>
           </div>
         </div>
-        <div class="directory">
+        <div class="terminal">
           <h2>
-            C:\><span id="dirCommand">dir</span><br><br>&emsp;Directory of C:\<br><br>
-            <div class="item">
-              RESUME&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;02-02-23&emsp;&emsp;3:07p
+            C:\><span id="typingeffect1"></span><span id="caret1" class="caret">_</span>
+            <script type="text/javascript" src="scripts/typingeffect.js" onload="setTimeout(typingEffect, 2000, 'dir', 'typingeffect1');"></script>
+            <script type="text/javascript" src="scripts/delaytext.js" onload="delayText('hidden', 'caret1', 3900)"></script>
+            <br><br>
+            <span id="delay1" class="hide">&emsp;Directory of C:\</span>
+            <script type="text/javascript" src="scripts/delaytext.js" onload="delayText('visible', 'delay1', 4000)"></script>
+            <br><br>
+            <div>
+              <span id="delaydirectory1" class="item hide">RESUME&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;02-02-23&emsp;&emsp;3:07p</span>
+              <script type="text/javascript" src="scripts/delayText.js" onload="delayText('visible', 'delaydirectory1', 4050)"></script>
             </div>
-            <div class="item">
-              PITCH RECOGNITION PROJECT&emsp;&nbsp;xx-xx-xx&nbsp;&emsp;xx:xxx
+            <div>
+              <span id="delaydirectory2" class="item hide">PITCH RECOGNITION PROJECT&emsp;&nbsp;xx-xx-xx&nbsp;&emsp;xx:xxx</span>
+              <script type="text/javascript" src="scripts/delayText.js" onload="delayText('visible', 'delaydirectory2', 4100)"></script>
             </div>
+            <br><br>
+            <span id="delay2" class="hide">C:\></span><span id="caret2" class="caret hide">_</span>
+            <script type="text/javascript" src="scripts/delayText.js" onload="delayText('visible', 'delay2', 4150)"></script>
+            <script type="text/javascript" src="scripts/delaytext.js" onload="delayText('visible', 'caret2', 4150)"></script>
           </h2>
         </div>
       </div>
@@ -53,6 +55,4 @@ Secondly, this being my first experience with HTML or CSS, and being a personal 
       </div>
     </div>
   </body>
-
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </html>
