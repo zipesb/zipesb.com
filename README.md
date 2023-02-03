@@ -10,4 +10,4 @@ Quick resource list (to be refined later)
 -Nenad Vracar https://stackoverflow.com/questions/36118301/simulate-a-flashing-text-cursor-in-html
 -https://developer.mozilla.org/en-US/docs/Web/CSS/
 -nepeo https://stackoverflow.com/questions/24939347/how-can-i-add-a-time-delay-to-my-divs-so-they-appear-one-after-the-other-like-a
--https://dev.to/ekeijl/retro-crt-terminal-screen-in-css-js-4afh
+-http://aleclownes.com/2017/02/01/crt-display.html
